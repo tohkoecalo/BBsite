@@ -25,8 +25,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="header" id="home">
 				<div class="wrap">
 				<div class="top-header">
+				   
 					<div class="logo">
-						<a href="index.html"><span> </span>BlueBeak.std</a>
+						 <a href="index.html"> BlueBeak.std</a>
 					</div>
 					<div class="top-nav">
 						<ul>
@@ -40,6 +41,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="clear"> </div>
 				</div>
+				
 			<!---End-header----->
 			<!----start-content-slider---->
 			<div id="da-slider" class="da-slider">
@@ -57,7 +59,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					   <div class="da-title">
 					   <h3 style = "font-size:50px;"> Become famous<br />
 					      	 with our help!</h3>
-					   <h4 style = "font-size:30px;"> SMM management!</h4>
+					   <h4 style = "font-size:30px;"> SMM management</h4>
 					    </div>
 					     <div class="da-img">
 					      <img src="images/slider-pic2.png" alt="Drupal Powered" title="Presenting the Drupalien" />
@@ -67,7 +69,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					   <div class="da-title">
 					    <h3 style = "font-size:50px;">Check our<br />
 					      	 work</h3>
-					    <h4 style = "font-size:30px;">App developing!</h4>
+					    <h4 style = "font-size:30px;">App developering</h4>
 					    </div>
 					     <div class="da-img">
 					      <img src="images/slider-pic3.png" alt="Drupal Powered" title="Presenting the Drupalien" />
@@ -97,17 +99,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!---start-top-grids---->
 				<div class="top-service-grids" id="services">
 					<div class="top-service-grid">
-						<a href="#"><img src="images/game-publish.png" width="260" alt="" /></a>
+						<a href="#"><img src="images/game-publisher.png" width="180" alt="" /></a>
 						<a href="#"><span>Game Publisher</span></a>
 						<p>Just fill the form and we will publish your app for free!</p>
+						<a href="#" class="button"/>Open form</a>
 					</div>
 					<div class="top-service-grid">
-						<a href="#"><img src="images/smm-agensy.png" width="180" alt="" /></a>
+						<a href="#"><img src="images/smm-agency.png" width="180" alt="" /></a>
 						<a href="#"><span>SMM Agency</span></a>
 						<p>Just fill another form and get the best advertising management!</p>
 					</div>
 					<div class="top-service-grid">
-						<a href="#"><img src="images/app-develop.png" width="180" alt="" /></a>
+						<a href="#"><img src="images/app-developer.png" width="180" alt="" /></a>
 						<a href="#"><span>App Developer</span></a>
 						<p>Download our own applications</p>
 					</div>
@@ -341,7 +344,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="team-members">
 						<div class="team-member">
-						    <img src = "/images/people-pic1.png" height="200">
+						    <img src = "images/people-pic1.png" height="200">
 							<h4><a href="#">Alex Volkov</a></h4>
 						   <label>CXC</label>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
@@ -355,7 +358,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</ul>
 						</div>
 						<div class="team-member">
-							<img src = "/images/people-pic1.png" height="200">
+							<img src = "images/people-pic1.png" height="200">
 							<h4><a href="#">Lev Butkovskiy</a></h4>
 						   <label>loh</label>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
@@ -369,7 +372,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</ul>
 						</div>
 						<div class="team-member">
-							<img src = "/images/people-pic1.png" height="200">
+							<img src = "images/people-pic1.png" height="200">
 							<h4><a href="#">John Smith</a></h4>
 						   <label>Creative Director</label>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
@@ -395,6 +398,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h3>Recent Posts</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>	
 				</div>
+
 				<div class="post-grids">
 					<div class="post-grid">
 						<span onclick="location.href='#';"><a href="#"> </a></span>
@@ -428,12 +432,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>	
 				</div>
 				<div class="contatct-form">
-					<form>
-						<input type="text" value="Name :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name :';}">
-						<input type="text" value="Email :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email :';}">
-						<textarea rows="2" cols="70" onfocus="if(this.value == 'Message :') this.value='';" onblur="if(this.value == '') this.value='Message :';" >Message :</textarea>
-						<input type="submit" value="Send" />
-					</form>
+					<form action= "mail.php" method= "POST"> 
+					   <p style="color:white">Select type: </p><p><select style="font-size:30px;">
+                          <option value="Game Publish">Game Publish</option>
+                          <option value="SMM Agensy">SMM Agensy</option>
+                          <option value="Other">Other</option>
+                        </select></p>
+                        <p> &nbsp;</p>
+                        <p style="color:white">Name: </p><p> <input type= "text" name= "name"> </p> 
+                        <p style="color:white">E-mail: </p><p> <input type= "text" name= "email"></p> 
+                        <p style="color:white">Message: </p><p> <textarea rows= "10" cols= "45" name= "message"></textarea></p>
+                        <input type= "submit" value= "Send"> 
 				</div>
 			</div>
 			</div>

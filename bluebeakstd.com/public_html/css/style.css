@@ -59,7 +59,7 @@ body{
 	height: 36px;
 	width: 45px;
 	display: inline-block;
-	background: url(../images/f.dgd) no-repeat 0px 0px;
+	background: url(../images/logo.png) no-repeat 0px 0px;
 	vertical-align: initial;
 
 }
@@ -137,7 +137,7 @@ body{
 }
 /*---start-gallery-----*/
 .recent-works {
-	background: url(../images/portfolio-bg-purple.jpg) no-repeat;
+	background: url(../images/portfolio-bg-pink-light.jpg) no-repeat;
 	padding: 4em 0;
 }
 .gallery{
@@ -508,15 +508,6 @@ body{
 	width: 46px;
 	height: 47px;
 	display: block;
-}
-.facebook{
-	background:url(../images/social-icons.png) no-repeat 0px 0px;
-}
-.twitter{
-	background: url(../images/social-icons.png) no-repeat -59px 0px;
-}
-.pin{
-	background: url(../images/social-icons.png) no-repeat -120px 0px;
 }
 /*------recent-postings-----*/
 .recent-posts{
@@ -1435,4 +1426,5 @@ body{
 		float: none;
 		text-align:center;
 	}
+	
 }
